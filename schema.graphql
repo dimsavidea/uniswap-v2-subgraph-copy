@@ -205,6 +205,8 @@ type Swap @entity {
 
   # derived info
   amountUSD: BigDecimal!
+  price0: BigDecimal!
+  price1: BigDecimal!
 }
 
 # stores for USD calculations
